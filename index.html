@@ -94,6 +94,8 @@
           .attr("x", 10)
           .attr("y", -5)
           .attr("xlink:href", 'camera.png')
+          .attr("width", 15)
+          .attr("height", 15)
           ;
       nodeEnter.append("text")
           .attr("x", function(d) { return d.children || d._children ? -10 : 30; })
